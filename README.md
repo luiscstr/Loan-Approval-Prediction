@@ -22,6 +22,8 @@ Data is from Analytics Vidhya practice problem. Can be downloaded [here](https:/
   -  \raw: contains the original data set.
   -  \processed: contains cleaned and preprocessed files
 - src: contains the notebooks
+- results: pickle file that contains a pandas dataframe where the different models are stored. The dataframe structure is as follows:
+    --
 
 ## 5. NOTEBOOK STRUCTURE
 The repository contains a total of six (6) notebooks:
