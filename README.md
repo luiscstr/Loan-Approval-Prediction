@@ -22,9 +22,14 @@ Data is from Analytics Vidhya practice problem. Can be downloaded [here](https:/
   -  \raw: contains the original data set.
   -  \processed: contains cleaned and preprocessed files
 - src: contains the notebooks
-- results: pickle file that contains a pandas dataframe where the different models are stored. The dataframe structure is as follows:
-    --
-
+- results: pickle file that contains a pandas dataframe where the different models are stored. The dataframe contains the following fields
+    - Algorithm: algorithm used for the model.
+    - Model: saved model.
+    - Features: indicates which features were used to build the model
+    - Best_Score_train: accuracy of the training set.
+    - Best_Score_test: accuracy of the test set
+    - Case, Case_Descript: describe which techniques were used to build de model. For example, Gridsearch, Feature selection, sampling methods...
+    -
 ## 5. NOTEBOOK STRUCTURE
 The repository contains a total of six (6) notebooks:
 - *1. Data description and initial intuitions*: structure and characteristics of the data set (rows, columns, missing values...), field description and initial suposition/guesses prior to the analysis
@@ -32,4 +37,4 @@ The repository contains a total of six (6) notebooks:
 - *3. Data cleaning and preprocessing*: application of One Hot Encoder and scaling.
 - *4. Model*: train and test a logistic regression classifier, random forst classifier and a neural network. Includes hyper farameter tunning (Gridsearch) and sampling techniques.
 - *5. Conclussuions and recommendations*: summary of the analysis and findings.
-- *Full-Employee churn*:five previous notebooks consolidated.
+- *FUll:five previous notebooks consolidated.
