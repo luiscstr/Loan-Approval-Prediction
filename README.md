@@ -15,7 +15,7 @@ To improve the model, the following techniques/methods are used:
 - Sampling methods: Random Under Sampling, Tomek Links, Random Over Sampling, SMOTE, SMOTE Tomek.
 
 ## 3. DATA
-Data is from Analytics Vidhya practice problem. Can be downloaded [here](https://datahack.analyticsvidhya.com/contest/practice-problem-loan-prediction-iii/download/train-file)
+Data is from Analytics Vidhya practice problem. Can be downloaded [here](https://datahack.analyticsvidhya.com/contest/practice-problem-loan-prediction-iii/download/train-file).
 
 ## 4. FOLDER STRUCTURE
 - Data
