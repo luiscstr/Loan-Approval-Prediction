@@ -40,5 +40,5 @@ The repository contains a total of six (6) notebooks:
 - *2. EDA*: exploratory data analysis, subdivided in categorical variable and numerical variable.
 - *3. Data Tratment*: application of One Hot Encoder and scaling.
 - *4. Model*: train and test a logistic regression classifier, random forst classifier and a neural network. Includes hyper farameter tunning (Gridsearch) and sampling techniques.
-- *5. Conclussuions: summary of the analysis and findings.
+- *5. Conclusions: summary of the analysis and findings.
 - *FUll:five previous notebooks consolidated.
